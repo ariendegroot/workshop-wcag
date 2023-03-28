@@ -1,0 +1,36 @@
+{
+	"name": "wcag-project",
+	"version": "1.0.0",
+	"description": "WCAG project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack-dev-server --mode development --open --hot",
+		"build": "webpack --mode production",
+		"check": "prettier --check '*.js' '*.js'",
+		"format": "prettier --write '**.js' '**.scss'",
+		"serve": "http-server ./dist -p 9000"
+	},
+	"author": "Incentro",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.20.12",
+		"autoprefixer": "^10.4.13",
+		"babel-loader": "^9.1.2",
+		"copy-webpack-plugin": "^11.0.0",
+		"css-loader": "^6.7.3",
+		"handlebars-loader": "^1.7.3",
+		"html-webpack-plugin": "^5.5.0",
+		"http-server": "^14.1.1",
+		"lint-staged": "^13.1.0",
+		"mini-css-extract-plugin": "^2.7.2",
+		"postcss-loader": "^7.0.2",
+		"prettier": "^2.8.3",
+		"sass": "^1.57.1",
+		"sass-loader": "^13.2.0",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.11.1",
+		"webpack-livereload-plugin": "^3.0.2"
+	}
+}

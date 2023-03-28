@@ -1,0 +1,36 @@
+*:focus {
+ outline: 1px solid #eeeeee   ;   
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: silver;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+
+  li {
+    display: inline-flex;
+  }
+}
+
+.updates {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2em;
+    justify-content: space-around;
+    > span {
+        max-width: calc(50% - 2em);
+    }
+}
+
+img {
+  max-width: 100%;
+}
