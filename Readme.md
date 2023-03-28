@@ -8,7 +8,7 @@ npm install
 npm run start
 ```
 
-You can view the dev environment on https://localhost:8080
+You can view the dev environment on http://localhost:8080
 
 ## How to create a static build?
 You can build the project to a static project. 
@@ -23,4 +23,4 @@ By using the simple http server
 ```
 npm run serve
 ```
-You can view the static build on https://localhost:9000
+You can view the static build on http://localhost:9000

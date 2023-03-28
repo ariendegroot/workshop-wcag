@@ -9,16 +9,24 @@
         {{> partials/head.html }}
         <main>
             <form>   
-                <h2>First Name</h2>
-                <input type="text" name="firstname" id="firstname">
-             
+                <button value="Submit" /> Submit</button> 
+                <div>
+                    <h2>Message:</h2>
+                    <textarea name="message" rows="4" cols="50">Type your message...</textarea>
+                </div>
+             <div>
                 <h2>Last Name:</h2>
                 <input type="message" name="lastname">
-                <h2>Message:</h2>
-                <textarea name="message" rows="4" cols="50">Type your message...</textarea>
-              </form>
+            </div>
+   
+            <div>
+                <h2>First Name:</h2>
+                <input type="text" name="firstname" id="firstname" required>
+             </div>
+
+            </form>
               <p>Make sure everything is filled in correctly!</p>
-              <button value="Submit" /> Submit</button>
+           
         </main>
         {{> partials/footer.html }}
     </body>
