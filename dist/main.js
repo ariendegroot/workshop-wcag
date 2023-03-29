@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=[class{constructor(e){this.elem=e,this.bindListeners()}bindListeners(){this.elem.addEventListener("click",(function(e){e.preventDefault(),alert("Hello world!")}))}static getSelector(){return"[data-hello-world]"}}];for(let t=0;t<e.length;t+=1){const l=document.querySelectorAll(e[t].getSelector());if(l.length)for(const n of l)new e[t](n)}})();
